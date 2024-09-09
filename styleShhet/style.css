@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 2rem;
     background-color: #081b31;
     color: white;
 }
 
-.choices{
+.choices {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,18 +20,18 @@ h1{
     margin-top: 5rem;
 }
 
-.choice:hover{
+.choice:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
-.choice{
+.choice {
     height: 150px;
     width: 150px;
 
 }
 
-img{
+img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -40,7 +40,7 @@ img{
 }
 
 
-.score-board{
+.score-board {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,11 +50,12 @@ img{
     margin-bottom: 5rem;
 }
 
-#user-score, #comp-score{
+#user-score,
+#comp-score {
     font-size: 5rem;
 }
 
-#msg{
+#msg {
     background-color: #081b31;
     color: white;
     font-size: 2rem;
